@@ -1,0 +1,112 @@
+.MuiButton-outlined {
+  border: 1px solid rgb(35, 200, 170) !important;
+}
+
+.MuiButton-outlined:hover {
+  background: rgb(35, 200, 170) !important;
+  color: white !important;
+}
+
+/* .create-request-submit-button:hover {
+  color: rgb(35, 200, 170) !important;
+  background: white !important;
+} */
+
+.create-additional-info {
+  box-shadow: none !important;
+}
+
+.create-additional-info button {
+  background: rgb(35, 200, 170) !important;
+}
+
+.added-info-remove:hover {
+  color: rgb(35, 200, 170) !important;
+}
+
+.toast-container {
+  border: 1px solid rgb(35, 200, 170);
+  border-radius: 5px;
+  color: #3c3459;
+}
+
+.update-toast-container {
+  background: rgb(35, 200, 170);
+  border-radius: 5px;
+}
+
+.error-toast-container {
+  border-radius: 5px;
+}
+
+.error-progress-bar {
+  display: none;
+}
+
+.preivewPdf-dialog-content {
+  height: 900px;
+  width: 100%;
+}
+
+.preivewPdf-dialog-content.MuiDialogContent-root {
+  overflow-y: unset;
+}
+
+.flash-record-page{
+  max-width: 60%;
+  margin: 0 auto;
+}
+.flash-record-group-button-submit{
+  display: flex;
+}
+
+.flash-record-content .tit-upload{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flash-record-content .tit-upload hr{
+  border: none!important;
+}
+.flash-record-content .link{
+  text-align: right;
+  display: block;
+}
+.form-group .btn{
+  color: white;
+  width: 200px;
+  height: 48px;
+  /* margin: 40px auto 0; */
+  padding: 0 30px;
+  white-space: nowrap;
+  border-radius: 25px;
+  background-color: #F7931E;
+}
+.flash-record-content p{
+  color: #4F4F4F;
+}
+.form-group .btn-blue{
+  background-color: #4266FF;
+  margin-top: 0;
+}
+.select-field {
+  width: 165px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .flash-record-content .tit-upload{
+    display: block;
+  }
+}
+@media screen and (max-width: 435px) {
+  .flash-record-group-button-submit{
+    flex-direction: column;
+  }
+  .list-indicator-strong-1{
+    word-break: break-all;
+  }
+  .list-indicator-strong-2{
+    margin-left: 0 !important;
+  }
+}
+

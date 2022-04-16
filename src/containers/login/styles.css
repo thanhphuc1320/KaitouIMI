@@ -1,0 +1,36 @@
+.mT10.mT10.mT10.mT10.mT10{
+	margin-top: 10px;
+}
+
+.font-size40.font-size40.font-size40.font-size40{
+	font-size: 40px;
+}
+
+.main-left-login{
+	background: url(./img/banner-account.png) no-repeat 0 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-left-login h3{
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+	margin-bottom: 16px;
+}
+
+.main-left-login p{
+	font-size: 0.8rem;
+	color: #fff;
+	line-height: 27px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+	margin-bottom: 16px;
+}

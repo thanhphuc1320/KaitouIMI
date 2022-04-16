@@ -1,0 +1,88 @@
+.MuiButton-outlined {
+  border: 1px solid rgb(35, 200, 170) !important;
+}
+
+.MuiButton-outlined:hover {
+  background: rgb(35, 200, 170) !important;
+  color: white !important;
+}
+/* 
+.create-request-submit-button:hover {
+  color: rgb(35, 200, 170) !important;
+  background: white !important;
+} */
+
+.create-additional-info {
+  box-shadow: none !important;
+}
+
+.create-additional-info button {
+  background: rgb(35, 200, 170) !important;
+}
+
+.added-info-remove:hover {
+  color: rgb(35, 200, 170) !important;
+}
+
+.toast-container {
+  border: 1px solid rgb(35, 200, 170);
+  border-radius: 5px;
+  color: #3c3459;
+}
+
+.update-toast-container {
+  background: rgb(35, 200, 170);
+  border-radius: 5px;
+}
+
+.error-toast-container {
+  border-radius: 5px;
+}
+
+.error-progress-bar {
+  display: none;
+}
+
+.preivewPdf-dialog-content {
+  height: 900px;
+  width: 100%;
+}
+
+/***** new create request *****/
+.create-request-content{
+  padding: 40px 0px 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+}
+
+.create-request-part{
+  width: 48%;
+}
+.create-request-question .question-empty{
+  text-align: center;
+  font-size: 12px;
+  padding: 40px 0;
+
+  color: #797979;
+}
+
+.create-request-question textarea.form-control{
+  padding: 10px!important;
+  color: #797979!important;
+  min-height: 100px;
+}
+.form-group .form-control{
+  padding-left: 15px !important;
+}
+
+@media (max-width: 640px){
+  .create-request-content{
+    flex-direction: column;
+    padding: 30px;
+    width: unset;
+  }
+  .create-request-part{
+    width: 100%;
+  }
+}

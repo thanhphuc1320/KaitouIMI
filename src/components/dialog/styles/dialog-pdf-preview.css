@@ -1,0 +1,168 @@
+.preview-prev-nav {
+  position: absolute !important;
+  top: 50% !important;
+  left: 0 !important;
+  color: rgb(35, 200, 170) !important;
+}
+
+.preview-next-nav {
+  position: absolute !important;
+  top: 50% !important;
+  right: 0 !important;
+  color: rgb(35, 200, 170) !important;
+}
+
+.react-pdf__Page {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-preview-numpages {
+  text-align: center;
+}
+.list-indicator .MuiFormControl-root,
+.list-indicator-content .MuiFormControl-root,
+.list-indicator-bottom-left .MuiFormControl-root,
+.list-indicator-top-right .MuiFormControl-root,
+.list-indicator-level .MuiFormControl-root {
+  bottom: 4px;
+  left: 5px;
+}
+.list-indicator-content .MuiFormControl-root {
+  width: 100%;
+}
+.list-indicator-level{
+  display: flex;
+}
+.list-indicator-level .MuiFormControl-root{
+  width: 15%;
+}
+.list-indicator .MuiFormControl-root .MuiInput-underline::before,
+.list-indicator-content .MuiFormControl-root .MuiInput-underline::before,
+.list-indicator-bottom-left .MuiFormControl-root .MuiInput-underline::before,
+.list-indicator-top-right .MuiFormControl-root .MuiInput-underline::before,
+.list-indicator-level .MuiFormControl-root .MuiInput-underline::before{
+  border-bottom: unset;
+}
+
+@media (max-width: 991px) {
+  .list-indicator-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-indicator-bottom-left .MuiFormControl-root,
+  .list-indicator-top-right .MuiFormControl-root {
+    width: 20%;
+  }
+}
+.title-result {
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Open Sans;
+}
+.background-result p {
+  font-size: 0.9rem;
+  line-height: 122.4%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Open Sans;
+}
+.btn-result {
+  background: #589df7;
+  box-shadow: 0px 18px 35px rgba(8, 128, 174, 0.71);
+  border-radius: 24px;
+  width: 127px;
+  height: 42px;
+  background-color: #589df7;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  z-index: 10;
+  border: none;
+}
+.custom-style div:nth-child(2) {
+  background: none !important;
+}
+.custom-style div:nth-child(1) div:nth-child(1) div:nth-child(1) {
+  background: none !important;
+  box-shadow: none !important;
+}
+.title-dialog p {
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 1.1rem !important;
+  line-height: 30px;
+  color: #4f4f4f !important;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #4266ff;
+  width: 209px;
+  padding-bottom: 10px;
+}
+.border-bottom-title {
+  border-bottom: 2px solid #e0e0e0;
+  margin-top: -16px;
+}
+.MuiDialog-paperWidthSm {
+  background: #ffffff;
+  box-shadow: -10px 20px 10px rgb(12 73 170 / 5%) !important;
+  border-radius: 24px !important;
+  width: 600px !important;
+}
+.sub-title-schedule {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4f4f4f;
+}
+.sub-title-schedule .time-zone{
+  font-weight: 400;
+}
+.btn-cancel-schedule {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #828282;
+}
+.btn-add-schedule-width {
+  width: 250px;
+}
+.MuiDialogActions-root{
+  padding: unset !important;
+}
+.MuiDialogContent-root{
+  padding: 20px 20px !important;
+}
+/* .MuiGrid-root  div{
+  width: 100% !important;
+} */
+.MuiList-padding{
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+}
+.MuiMenu-paper{
+  border-radius: 24px !important;
+  box-shadow: 0px 0px 15px rgba(12, 73, 170, 0.1) !important;
+}
+@media (max-width: 768px){
+  .edit-css-pdf-review-container .react-pdf__Page__canvas{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .edit-css-pdf-review-container .react-pdf__Page__textContent{
+    width: unset !important;
+    height: unset !important;
+  }
+}
+@media (max-width: 425px){
+  .edit-css-pdf-review-container .react-pdf__Page__canvas{
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

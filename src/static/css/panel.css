@@ -1,0 +1,5 @@
+.panel-actions-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}

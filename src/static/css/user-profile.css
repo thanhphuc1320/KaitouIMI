@@ -1,0 +1,37 @@
+.upload-avatar-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(35, 200, 170);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-avatar-wrap:hover .upload-avatar-overlay  {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.upload-avatar {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.upload-avatar-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-avatar-overlay-wrap {
+  position: relative;
+}

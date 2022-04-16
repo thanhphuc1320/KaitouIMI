@@ -1,0 +1,25 @@
+.request-page{
+    padding: 30px 40px 0;
+}
+.review-items {
+    padding: 15px;
+}
+
+.review-title {
+    font-weight: 800 !important;
+    color: #21c8a9;
+}
+
+.doctor-review-item {
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid gainsboro ;
+}
+
+.doctor-reviews {
+    margin-bottom: 30px;
+}
+
+.request-detail-comment-title {
+    align-items: center;
+    display: flex;
+}

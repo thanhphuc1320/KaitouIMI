@@ -1,0 +1,53 @@
+.h1 {
+    font-family: Open Sans;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 68px;
+}
+.h2 {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600px;
+    font-style: normal;
+    line-height: 49px;
+}
+.h3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 33px;
+}
+.subtitle {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 30px;
+}
+.description {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 25px;
+}
+.label {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 19px;
+}
+.text-list {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    text-transform: capitalize
+}

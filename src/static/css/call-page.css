@@ -1,0 +1,122 @@
+.call-page{
+  padding: 0 30px 0 20px;
+}
+
+.call-page .MuiGrid-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.call-page .panel-body{
+  padding: 0;
+  position: relative;
+}
+.call-page .header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 20px 20px;
+}
+.call-page .header .header-left{
+  float: none;
+  margin-right: 0
+}
+.call-page .header .header-left img{
+  max-width: 25px;
+}
+.call-page h2,
+.call-page h5{
+  color: #4266FF;
+  font-size: 18px;
+}
+
+.call-page .panel-body .container-image{
+
+}
+.call-page .panel-body .xray-icon-list-col,
+.call-page .panel-body .icon-list-col{
+  top: auto;
+  bottom: 60px;
+}
+
+.call-page .box-profile h2{
+  color: #0076AA;
+  margin-bottom: 10px;
+}
+
+.call-page .box-profile h5{
+  color: #28C1A5;
+  font-size: 16px;
+}
+
+.call-page .image-file h5{
+  color: #28C1A5;
+}
+.call-page .box-profile{
+  width: 155%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -170px;
+}
+.call-page .box-profile .info{
+  padding-left: 50px;
+}
+.image-file .xray-image-view .xray-images{
+  height: 110px;
+  
+}
+.image-file .xray-image-view .xray-images img{
+  border-radius: 24px;  
+}
+.image-file{
+  position: relative;
+  width: 58%;
+  text-align: left;
+  top: 50px;
+}
+
+.image-file .xray-image-view {
+  display: block;
+  overflow: hidden;
+}
+.image-file .xray-image-view .xray-left{
+  position: absolute;
+  top: 52px;
+  left: -60px;
+}
+
+.image-file .xray-image-view .xray-right{
+  right: 0;
+  top: 52px;
+}
+
+.xray {
+  background: #fff;
+  border-radius: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.xray .header {
+  width: 100%;
+  padding: 20px;
+}
+
+.xray .x-ray img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.chat-box {
+  background: #fff;
+  border-radius: 24px;
+}
+
+.chat-box .header{
+  width: 100%;
+  padding: 23px;
+  margin-bottom: 24px;
+}

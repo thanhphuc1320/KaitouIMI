@@ -1,0 +1,68 @@
+.card-image {
+    height: 14.5rem;
+    width: 17.1rem;
+}
+.card-image:hover{
+    background: #DADADA;
+    border: 2px solid #2F80ED;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 32px;
+    height: auto;
+}
+.image-upload{
+    height: 11.3rem;
+    background-color: #DADADA;
+    border-radius: 32px 32px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.detail-img{
+    background-color: #FFFFFF;
+    /* height: 3.2rem; */
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.detail-img:hover{
+    background: #FFFFFF;
+    border-top: 2px solid #2F80ED;
+    box-sizing: border-box;
+    /* height: 3.2rem; */
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.detail-img p{
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #979797;
+}
+.card-img-process{
+    height: 4px;
+    width: 113px;
+    background-color: #DADADA;
+}
+.card-uploaded{
+    width: 70%;
+    background: linear-gradient(269.99deg, #63D16E -42.19%, #5FC068 100.33%);
+    height: 4px;
+    border: 7px;
+}
+.gr-icon-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3.3rem;
+}

@@ -1,0 +1,418 @@
+.container-admin {
+  display: flex;
+  width: 100%;
+  font-family: Open Sans;
+  font-style: normal;
+}
+.container-admin .left {
+  width: 36%;
+  padding-top: 35px;
+  height: 100vh;
+  background: #dcdcdc;
+  margin-left: -70px;
+  padding-left: 90px;
+}
+.btn-add-schedule {
+  float: right;
+  box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.26);
+  border-radius: 36px 0px 0px 36px;
+  height: 41px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-add-schedule p {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 0.7rem;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.bg-btn-blue {
+  background: #4266ff;
+}
+.bg-btn-yellow {
+  background: #f7931e;
+}
+.container-admin .right {
+  width: 75%;
+  padding-top: 28px;
+  padding-right: 30px;
+}
+.date-picker-admin {
+  padding-right: 20px;
+}
+.date-picker-admin .react-datepicker {
+  background-color: transparent;
+}
+.date-picker-admin .react-datepicker__current-month {
+  background: unset;
+  padding: unset;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #4266ff;
+  margin-bottom: 10px;
+}
+.date-picker-admin .react-datepicker__navigation--previous {
+  right: 40px;
+  left: auto;
+  background: url('../../img/imi/ico-pre-white.png') no-repeat 0 0;
+  background-size: 7px 10px;
+}
+.date-picker-admin .react-datepicker__navigation--next {
+  background: url('../../img/imi/ico-next-white.png') no-repeat 0 0;
+  background-size: 7px 10px;
+}
+.date-picker-admin .react-datepicker__day-names {
+  border-bottom: unset;
+}
+.date-picker-admin .react-datepicker__day-name {
+  color: #71717a;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  width: 30px;
+  height: 16px;
+}
+.date-picker-admin .react-datepicker__day {
+  width: 30px;
+  height: 26px;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 0px;
+  color: #4f4f4f;
+}
+.date-picker-admin .react-datepicker__day--selected {
+  background: #3b82f6;
+  border: unset;
+  color: white !important;
+}
+.date-picker-admin .react-datepicker__day--keyboard-selected {
+  background: #3b82f6;
+  color: white !important;
+}
+.container-admin .left .search-admin,
+.find-admin .search-admin,
+.find-dialog-patient {
+  position: relative;
+}
+.container-admin .left .search-admin input,
+.find-admin .search-admin input {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 56px;
+  line-height: 14px;
+}
+.container-admin .left .search-admin img,
+.find-admin .search-admin img {
+  position: absolute;
+  right: 20px;
+  left: unset;
+  top: 15px;
+  z-index: 1;
+}
+.container-admin .left .form-group,
+.find-admin .form-group,
+.find-dialog-patient .form-group {
+  margin-bottom: unset;
+}
+.find-admin .form-group .form-control, .find-dialog-patient .form-group .form-control{
+  color: #589df7 !important;
+  font-weight: bold;
+  font-size: 0.7rem !important;
+}
+.schedule-doctor {
+  padding-right: 20px;
+}
+.schedule-doctor p {
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #4266ff;
+}
+.schedule-doctor button {
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: #ffffff;
+  background: #2f80ed;
+  border-radius: 6px;
+  height: 20px;
+  padding: 0px 6px;
+  border: none;
+}
+.container-admin .left .list-doctor-admin {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+}
+.border-top-list-doctor {
+  border-top: 1px solid #fff1f1;
+}
+.border-top-unset {
+  border-top: unset;
+}
+.list-doctor-admin .status-active {
+  background: #27ae60;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.list-doctor-admin .status-unactive {
+  background: #828282;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.list-doctor-admin p {
+  font-weight: 500;
+  font-size: 0.6rem;
+  color: #0369a1;
+  margin-bottom: unset;
+  font-family: Inter;
+}
+.container-admin .right .title-right {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 33px;
+  color: #979797;
+}
+.container-admin .right .sub-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 33px;
+  color: #4266ff;
+}
+.find-admin {
+  width: 35%;
+}
+.right .time-schedule {
+  width: 15%;
+}
+.right .grid {
+  display: grid;
+  grid-gap: 10px;
+  color: #444;
+  grid-column: 1;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: 8fr;
+  min-height: 86px;
+}
+.grid .box-1 {
+  background-color: transparent;
+  text-align: end;
+  font-weight: 600;
+  font-size: 0.6rem;
+  color: #71717a;
+  padding: 10px 10px 10px 0px;
+}
+.grid .box-1 .active-slot-time {
+  height: 29px;
+  background: #f7931e;
+  box-shadow: 0px 10px 15px rgb(66 102 255 / 10%);
+  border-radius: 0px 36px 36px 0px;
+  color: white;
+  align-items: center;
+  display: flex;
+  width: 105%;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin-top: -5px;
+}
+.grid .box-2 {
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 16px;
+  color: #0369a1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 5px 0px;
+  font-family: Inter;
+}
+.p-re-grid {
+  position: relative;
+  top: -10px;
+  padding-top: unset !important;
+}
+.border-bottom-grid {
+  border-top: 1px solid #d0d0d0;
+}
+.right .note-schedule {
+  width: 85%;
+}
+.grid .note-schedule {
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 16px;
+  color: #71717a;
+  padding: 10px;
+}
+.bg-grid-content {
+  padding: 10px;
+  background: rgba(14, 165, 233, 0.1);
+  border-radius: 4px;
+  border-left: 3px solid #0ea5e9;
+}
+.schedule-content {
+  height: 70vh;
+  overflow: auto;
+  margin-top: 20px;
+}
+.schedule-content .item-appoiment {
+  cursor: pointer;
+}
+.find-dialog-patient input {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 53px;
+  line-height: 14px;
+  height: 53px;
+  background: #f3f2f2 !important;
+  border-radius: 16px;
+  border: none;
+  width: 240px;
+  padding: 10px;
+  font-family: Open Sans;
+  font-size: 14px;
+}
+.find-dialog-patient input:focus {
+  outline: none !important;
+}
+.find-dialog-patient img {
+  right: 10px;
+  left: unset !important;
+  top: 13px !important;
+}
+.selection-dialog-patient {
+  width: 258px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.selection-dialog-patient p {
+  font-weight: 600;
+  color: #828282;
+}
+.selection-dialog-patient:focus{
+  outline: none !important;
+}
+.color-btn-add-patient {
+  font-weight: bold;
+  color: #4266ff;
+  font-family: Open Sans;
+}
+.list-slot-time {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+.list-schedule-doctor {
+  padding: unset;
+  height: 250px;
+  overflow: auto;
+}
+.messges-add-appointment {
+  height: 380px;
+  text-align: center;
+  font-size: 16px;
+  color: #4f4f4f;
+}
+.messges-add-appointment .text-messges {
+  margin-top: 120px;
+}
+.btn-back-home-admin {
+  width: 240px;
+  height: 56px;
+  background: #2f80ed;
+  box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.26);
+  border-radius: 36px;
+  border: none;
+  /* margin-top: 100px; */
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.error-admin {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #f7931e;
+}
+.full-name-admin{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #2F80ED;
+  align-items: center;
+  margin-top: 24px;
+  }
+  
+@media (max-width: 911px) {
+  .container-admin .left {
+    width: 25%;
+    padding-left: 20px;
+    margin-left: unset;
+    padding-top: 35px;
+    height: 100vh;
+    background: #dcdcdc;
+  }
+}
+@media (max-width: 768px) {
+  .container-admin .left {
+    height: calc(100vh - 120px);
+  }
+  .grid .box-2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
+  .container-admin {
+    display: table-row;
+  }
+  .container-admin .left {
+    width: 100%;
+  }
+  .container-admin .right {
+    width: 100%;
+    padding: 20px 20px 20px 0px !important;
+  }
+  .container-admin .left {
+    height: auto;
+  }
+  .grid .box-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .right .grid {
+    grid-template-columns: 2fr 6fr;
+  }
+  .list-schedule-doctor {
+    height: 100px;
+    overflow: auto;
+  }
+  .schedule-doctor {
+    padding-bottom: 20px;
+  }
+  .schedule-content {
+    height: 50vh;
+  }
+  .list-slot-time {
+    margin-left: 20px;
+  }
+}
+
+.sub-content-admin .no-data .icon-robot {
+  width: 40px;
+}

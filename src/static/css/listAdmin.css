@@ -1,0 +1,236 @@
+.sub-content-admin {
+  font-family: Open Sans;
+  font-style: normal;
+  padding: 20px;
+}
+.header-content-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content-admin .left {
+  width: 40%;
+  cursor: pointer;
+  display: flex;
+}
+.header-content-admin .left p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2f80ed;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+.header-content-admin .left .btn-add-listPatient {
+  background: #2f80ed;
+  box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.26);
+  border-radius: 0px 36px 36px 0px;
+  height: 41px;
+  min-width: 195px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+.header-content-admin .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;
+}
+.header-content-admin .right a {
+  position: relative;
+  margin-right: 15px;
+}
+.header-content-admin .right a span.count {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  border-radius: 50%;
+  background: #f7931e;
+  color: #fff;
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+}
+.header-content-admin .right span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: right;
+  color: #2f80ed;
+  margin-right: 15px;
+}
+.sub-content-admin .list-admin {
+  text-align: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.item-grid {
+  background: #ffffff;
+  box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.15);
+  border-radius: 16px;
+  max-width: 210px;
+  min-height: 244px;
+  display: grid;
+  cursor: pointer;
+}
+.item-grid .detail {
+  border-top: 1px solid #e0e0e0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #28c1a5;
+  bottom: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-grid h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #589df7;
+}
+.item-grid p {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #0076aa;
+  margin-bottom: 0px;
+}
+.item-grid a img {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px 0 rgb(0 255 245 / 50%);
+  object-fit: cover;
+  margin-top: 10px;
+}
+.content-list {
+  padding: 20px;
+  height: 72vh;
+  overflow: auto;
+}
+.header-content-admin .left .btn-back-listPatien {
+  background: #2f80ed;
+  box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.26);
+  border-radius: 36px 0px 0px 36px;
+  height: 41px;
+  width: 98px;
+  border: none;
+  margin-right: 20px;
+}
+.sub-content-admin .detail .status-active {
+  background: #6ebb5b;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.sub-content-admin .detail .status-unactive {
+  background: #ff0000;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.sub-content-admin .custom-width-cloud .upload-avatar-overlay {
+  height: 120px;
+  width: 120px;
+}
+.sub-content-admin .grid-add-robot {
+  display: grid;
+  width: 35%;
+}
+.sub-content-admin .grid-add-robot .form-group .MuiInputBase-input:nth-child(2) {
+color: #4F4F4F;
+}
+.sub-content-admin .grid-add-robot .form-group .MuiInputBase-input{
+  text-align: center;
+}
+.sub-content-admin .grid-add-robot .form-group .MuiButton-root{
+  background: transparent;
+}
+.sub-content-admin .grid-add-robot .form-group .MuiButton-root .MuiButton-label {
+  color: #4F4F4F;
+}
+.btn-edit-robot-admin {
+  width: 240px;
+  height: 56px;
+  background: #F7931E;
+  box-shadow: 0px 10px 15px rgb(66 102 255 / 26%);
+  border-radius: 36px;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.btn-delete-robot-admin {
+  width: 240px;
+  height: 56px;
+  background: #FC2D2C;
+  box-shadow: 0px 10px 15px rgb(66 102 255 / 26%);
+  border-radius: 36px;
+  border: none;
+  margin-top: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .sub-content-admin .list-admin {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .header-content-admin .left p {
+    font-size: 18px;
+  }
+  .header-content-admin .left .btn-add-listPatient {
+    min-width: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .sub-content-admin .list-admin {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .header-content-admin .left .btn-add-listPatient {
+    min-width: 150px;
+  }
+}
+@media (max-width: 540px) {
+  .sub-content-admin .list-admin {
+    grid-template-columns: auto;
+  }
+  .item-grid {
+    max-width: unset;
+  }
+  .header-content-admin {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: unset;
+    align-items: center;
+  }
+  .header-content-admin .left {
+    width: 100%;
+  }
+  .header-content-admin .right {
+    width: 100%;
+  }
+  .find-admin {
+    width: 60%;
+  }
+}

@@ -1,0 +1,40 @@
+.card-video{
+    height: 12.6rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px 32px 0px 0px;
+    background-color: #DADADA;
+    flex-direction: column;
+    filter: drop-shadow(0px 15px 15px rgba(66, 102, 255, 0.15));
+}
+
+.video-upload{
+    border: unset;
+}
+
+.video-progress--active{
+    width: 70%;
+    background: #2F80ED;
+    border-radius: 32px;
+    height: 7px;
+    margin-top: 77px;
+}
+
+.video-progress--video{
+    width: 100%;
+    background: #2F80ED;
+    border-radius: 32px;
+    height: 7px;
+    margin-top: 77px;
+}
+.video-progress{
+    width: 100%;
+    height: 7px;
+}
+/* @media screen (max-width) {
+    .card-video{
+        width: 18rem
+    }
+} */

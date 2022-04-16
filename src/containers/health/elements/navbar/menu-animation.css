@@ -1,0 +1,17 @@
+.menu-appear {
+  opacity: 0;
+}
+
+.menu-appear.menu-appear-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.menu-leave {
+  opacity: 1;
+}
+
+.menu-leave.menu-leave-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}

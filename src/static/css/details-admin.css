@@ -1,0 +1,83 @@
+.details-admin.details-admin.details-admin .form-control {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: #4f4f4f !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+  font-family: Open Sans;
+}
+.details-admin.details-admin.details-admin label {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: #828282 !important;
+  font-weight: normal;
+  font-family: Open Sans;
+}
+.upload_pic_admin {
+  position: absolute;
+  right: 7px;
+  bottom: 21px;
+}
+.text-sucssessfull{
+  text-align: center;
+  margin-top: 20px;
+}
+.text-sucssessfull p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #4f4f4f;
+}
+.text-sucssessfull span {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f80ed;
+  margin-top: 20px;
+}
+.custom-width > .MuiTextField-root{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.custom-width .MuiInputBase-root{
+  color: #797979;
+}
+.grid-add-user{
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-gap: 40px;
+  padding-right: 20px;
+}
+.grid-item-add-user{
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-gap: 100px;
+}
+@media ( max-width:1024px){
+  .grid-add-user {
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 20px;
+}
+.grid-item-add-user{
+  grid-gap: 20px;
+}
+}
+@media ( max-width: 766px){
+  .grid-add-user{
+    display: block;
+    padding-right: unset;
+  }
+  .grid-item-add-user{
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    grid-gap: 0px;
+  }
+  .btn-delete-robot-admin {
+    margin-top: 20px;
+  }
+  .btn-edit-robot-admin{
+    margin-right: 0px;
+  }
+
+}

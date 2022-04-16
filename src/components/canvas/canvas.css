@@ -1,0 +1,61 @@
+.image-canvas {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+#large-container {
+  width: 100%;
+  height: 3000px;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  padding: 5px 12px;
+}
+
+.btn.primary {
+  background-color: #29f3cb;
+  border: 1px solid #fff;
+  color: #000;
+}
+
+.btn.transparent {
+  background-color: transparent;
+  border: 0;
+}
+
+.btn.outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn.rounded {
+  border-radius: 8px;
+}
+
+.tx-white {
+  color: #fff !important;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.mono-select {
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.text-color-icon {
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+}

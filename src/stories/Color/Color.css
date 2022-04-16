@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.story-book-color{
+    width: 100px;
+    height: 100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.primary1{
+    background-color: #2F80ED;
+    color: #FFFFFF
+}
+.primary1hover{
+    background-color: #71ABFA;
+}
+.light-green{
+    background-color: #80D2BD;
+}
+.primary2{
+    background-color: #F7931E;
+}
+.primary2hover{
+    background-color: #FAB361;
+}
+.disable{
+    background-color: #DADADA;
+}

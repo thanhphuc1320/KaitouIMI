@@ -1,0 +1,657 @@
+.vertical-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-admin{
+  background: #E2E2E2;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+}
+.tabs-admin a {
+  cursor: pointer;
+  color: #797979;
+  font-size: 16px;
+  width: 33.33%;
+  text-align: center;
+  padding: 5px 0;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.tabs-admin a:hover{
+  text-decoration: none;
+  color: #4266FF;
+}
+
+.tabs-admin a.active{
+  background: #FFFFFF;
+  color: #4266FF;
+  filter: drop-shadow(-5px 0 11.5px rgba(0, 0, 0, 0.16));
+}
+.admin-homepage{
+  display: flex;
+}
+.admin-left{
+  background-color: #FFFFFF;
+  width: 275px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px 73px 0px;
+}
+.image-btn{
+  width: 100%;
+  flex-basis: 10%;
+}
+.admin-container-sidebar{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 172px);
+}
+.sidebar-container{
+  width: 100%;
+  margin-left: 55px;
+}
+.admin-sidebar-nav{
+  margin-left: 55px;
+}
+.admin-sidebar-nav, .sidebar-nav-custom, .sidebar-nav-custom .MuiTabs-vertical{
+  height: 100%;
+}
+
+
+.sidebar-container button{
+  width: 60%;
+  display: inline-block;
+  background: #F7931E;
+  mix-blend-mode: normal;
+  box-shadow: 0px 17px 17px rgb(66 102 255 / 19%);
+  border-radius: 48px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  border: none;
+  color: #fff;
+  padding: 20px 0px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 55px;
+}
+.admin-right{
+  width: calc(100% - 275px);
+  flex-direction: column;
+  height: 100vh;
+}
+.admin-right-header{
+  display: flex;
+  width: 100%;
+  flex-basis: 10%;
+}
+.header-left-container{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.header-left-nav{
+  display: flex;
+}
+.admin-header-nav {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.header-right-container{
+  width: 30rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-right-container img{
+  position: absolute;
+  right: 10px;
+  margin-right: 20px;
+}
+.header-right-container input{
+  position: absolute;
+  width: 40%;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: #FFFFFF;
+  margin-right: 20px;
+}
+.header-left-nav .active{
+ background-color: #FFFFFF !important;
+ box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.05);
+ border-radius: 16px;
+ width: 120px;
+ height: 46px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.admin-logo{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.admin-left .logo-img{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  box-shadow: inset 0px 0px 15px rgb(66 102 255 / 26%);
+  border-radius: 16px;
+}
+.admin-sidebar-nav ul li{
+  margin-bottom: 10px;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
+.admin-sidebar-nav ul li span{
+  margin-right: 5px;
+  margin-left: 15px;
+}
+.admin-sidebar-nav ul li span img{
+  width: 32px;
+}
+.admin-sidebar-nav ul li:active{
+  margin-bottom: 10px;
+  background-color: #589DF7;
+  border-radius: 24px;
+  width: 170px;
+  height: 50px;
+  color: #FFFFFF;
+  align-items: center;
+  display: flex;
+}
+.admin-right-container{
+  display: flex;
+  margin-left: 45px;
+  margin-top: 25px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+  overflow-x: auto;
+  height: calc(100vh - 185px);
+}
+
+.container-item-right{
+  display: flex;
+  width: 178px;
+  height: 244px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.admin-right .right-item-call{
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 15px rgba(66, 102, 255, 0.15);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 15px;
+  text-align: center;
+  max-width: 100%;
+  height: 100%;
+}
+.item-call-avatar img{
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px 0px #00fff580;
+  object-fit: cover;
+}
+.item-call-detail{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #589DF7;
+  margin-top: 15px;
+}
+.item-call-submit{
+  bottom: 13px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  width: 80%;
+  max-width: 155px;
+  height: 38px;
+  background: linear-gradient(95.1deg, #4266FF 6.99%, #00CEC9 82.28%);
+  border-radius: 8px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.item-call-submit p{
+  padding-top: 7px;
+}
+.item-call-detail p {
+  font-size: 12px;
+}
+.sidebar-nav-custom .MuiTab-wrapper{
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.admin-right-container .list-patient, .list-doctor{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+  overflow-x: auto;
+  height: calc(100vh - 250px);
+}
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #E0E0E0;
+  border-radius: 20px;
+}
+
+.sidebar-nav-custom .MuiTab-textColorInherit.Mui-selected{
+  margin-bottom: 10px;
+  background-color: #589DF7;
+  border-radius: 12px;
+  width: 170px;
+  height: 50px;
+  color: #FFFFFF !important;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 10px 15px rgb(66 102 255 / 26%);
+}
+.sidebar-nav-custom .MuiTabs-vertical{
+  border-right: unset;
+}
+.sidebar-nav-custom .MuiTabs-indicator{
+  display: none;
+}
+.admin-right-container #vertical-tabpanel-2{
+  width: 100%;
+}
+.sidebar-nav-custom .MuiTab-labelIcon{
+  min-height: unset;
+  margin-top: 20px;
+}
+.btn-create-profile{
+  cursor: pointer;
+  border: 1px solid rgb(35, 200, 170);
+  border-radius: 32px;
+  height: 48px;
+  padding: 0px 30px;
+  float: right;
+  white-space: nowrap;
+  width: 200px;
+  background-color: rgb(35, 200, 170);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+/* recording */
+.recording{
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.recording .icon-file{
+  font-size: 36px !important;
+  margin-right: 10px;
+}
+.recording .main-content-record div:nth-child(1) div:nth-child(3) div:nth-child(1){
+  margin-top: -10px;
+}
+.recording .main-content-record div:nth-child(1) div:nth-child(3) div:nth-child(3){
+  margin-top: -10px;
+}
+.recording .left{
+  width: 40%;
+}
+.title-left{
+  margin-bottom: 27px;
+}
+.title-left h5{
+  font-weight: bold;
+  font-size: 22px;
+  color: #589DF7;
+  margin-bottom: 18px;
+}
+.title-left p{
+  font-size: 18px;
+  color: #4F4F4F;
+  margin-bottom: 0px;
+}
+.recording .right{
+  width: 55%;
+}
+ .right .title{
+  font-weight: 600;
+  font-size: 22px;
+  color: #589DF7;
+}
+.audio{
+  max-width: 438px;
+  height: 450px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+.audio-recording{
+  padding: 18px;
+}
+.audio-recording img{
+  border-radius: 16px;
+}
+.audio-recording p{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #4266FF;
+  margin-bottom: 0px;
+}
+.right .transcript{
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+}
+.transcript .name-left{
+  text-align: left;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4266FF;
+  margin-bottom: 10px;
+}
+.transcript .name-right{
+  text-align: right;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4266FF;
+  margin-bottom: 10px;
+}
+.transcript .description{
+  background: #FFFFFF;
+  box-shadow: 0px 18px 40px rgb(8 128 174 / 10%);
+  border: 1px solid #00CEC9;
+  border-radius: 8px 8px 8px 0px;
+  padding: 22px;
+  background: #FFFFFF;
+}
+.transcript .description p{
+  font-weight: 600;
+  font-size: 0.7rem;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0px;
+  white-space: break-spaces;
+}
+.transcript .text-doctor{
+  width: 70%;
+  float: left;
+}
+.transcript .text-patient{
+  width: 70%;
+  float: right;
+  margin-right: 30px;
+}
+.group-btn-audio{
+  display: flex;
+}
+.text-center{
+  text-align: end;
+}
+.group-btn-audio{
+  margin: -45px 30px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+} 
+.sidebar-nav-custom .MuiTab-labelIcon .MuiTab-wrapper img {
+  margin-right: 10px;
+  width: 30px;
+}
+
+/***************************Reponsive*********************/
+
+@media (min-width: 1280px){
+  .header-right-container input{
+    width: 50%;
+  }
+}
+@media (max-width: 1279px){
+  .header-right-container input{
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px){
+  .admin-right-header{
+    flex-direction: column;
+  }
+  .header-right-container{
+    width: unset;
+    align-items: unset;
+    margin-top: 20px;
+  }
+  .header-right-container img{
+    top: 5px;
+  }
+  .header-right-container input{
+    width: 40%;
+  }
+  .audio {
+    height: 400px;
+  }
+  .admin-right-container .list-patient, .list-doctor{
+    height: calc(100vh - 275px);
+  }
+  .admin-right-container{
+    height: calc(100vh - 210px);
+  }
+  .appointment-container-right{
+    height: calc(100vh - 350px) !important;
+  }
+}
+
+@media (max-width: 1199px){
+  .MuiTab-textColorInherit{
+    margin-left: unset !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 911px){
+  .sidebar-nav-custom .MuiTab-root {
+    min-width: 185px;
+  }
+}
+
+@media (max-width: 911px){
+  .sidebar-nav-custom .MuiTab-textColorInherit.Mui-selected{
+    width: 100%;
+  }
+  .recording {
+    height: calc(100vh - 120px);
+}
+  .admin-homepage{
+    height: calc(100vh - 120px);
+  }
+  .admin-left{
+    width: 170px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .admin-logo{
+    margin: 10px 0px;
+  }
+  .logo-img{
+    width: 100% !important;
+  }
+  .admin-sidebar-nav, .sidebar-container, .sidebar-container button{
+    margin-left: unset;
+  }
+  .admin-sidebar-nav{
+    height: unset;
+  }
+  .sidebar-container button{
+    width: 100%;
+  }
+  .admin-right{
+    width: 100%;
+    height: calc(100vh - 120px);
+  }
+  .header-left-container, .admin-right-container{
+    margin-left: 40px;
+  }
+  .admin-right-container .container-item-right{
+    margin-right: 23px;
+  }
+  .admin-right-container .list-patient, .list-doctor{
+    height: calc(100vh - 385px);
+  }
+  .admin-right-container{
+    height: calc(100vh - 330px);
+  }
+  .appointment-container-right{
+    height: calc(100vh - 500px) !important;
+  }
+}
+
+@media (max-width:768px){
+  .admin-right-container .list-patient, .list-doctor{
+    height: calc(100vh - 390px);
+  }
+  .admin-right-container{
+    height: calc(100vh - 325px);
+  }
+  .appointment-container-right{
+    height: calc(100vh - 500px) !important;
+  }
+}
+
+@media (width: 768px){
+  .audio {
+    height: 350px;
+  }
+}
+@media (max-width: 764px) {
+
+  .recording{
+    height: 100vh;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+  }
+  .recording .left{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .recording .right{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .transcript .text-doctor {
+    width: 80%;
+  }
+  .transcript .text-patient {
+    width: 80%;
+    margin-right: unset;
+  }
+  .right .transcript {
+    height: 500px;
+  }
+  .audio {
+    height: 380px;
+  }
+}
+
+@media (max-width: 668px){
+  .admin-homepage{
+    flex-direction: column;
+  }
+  .admin-left{
+    width: 100%;
+    align-items: center;
+  }
+  .admin-logo{
+    width: 30%;
+  }
+  .admin-container-sidebar{
+    display: block;
+  }
+  .sidebar-nav-custom .MuiTab-labelIcon{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .admin-right-container .list-patient, .list-doctor{
+    justify-content: center;
+  }
+}
+@media (max-width: 425px){
+  .header-left-container, .admin-right-container{
+    margin-left: 10px;
+  }
+  .admin-header-nav{
+    font-size: 12px;
+  }
+  .admin-right-container{
+    justify-content: center;
+  }
+  .admin-logo{
+    width: 50%;
+  }
+  .sidebar-nav-custom .MuiTab-textColorInherit{
+    font-size: 12px !important;
+  }
+  .admin-left {
+    padding: 0;
+  }
+}
+@media (max-width: 375px){
+  .header-left-nav{
+    flex-direction: column;
+  }
+  .admin-header-nav{
+    margin-top: 20px;
+  }
+  .admin-logo, .admin-container-sidebar{
+    width: 50%;
+  }
+  .header-right-container input{
+    width: 70%;
+  }
+}
+@media (max-width: 320px) {
+  .audio {
+    height: 320px;
+  }
+}

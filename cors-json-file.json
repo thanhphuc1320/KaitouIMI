@@ -1,0 +1,23 @@
+[
+  {
+    "origin": [
+      "http://imi.ai",
+      "https://imi.ai",
+      "http://www.imi.ai",
+      "https://www.imi.ai",
+      "http://dashboard.imi.ai",
+      "https://dashboard.imi.ai",
+      "http://www.dashboard.imi.ai",
+      "https://www.dashboard.imi.ai",
+      "http://dev-dashboard.imi.ai",
+      "https://dev-dashboard.imi.ai",
+      "http://www.dev-dashboard.imi.ai",
+      "https://www.dev-dashboard.imi.ai",
+      "http://localhost:3000",
+      "localhost:3000"
+    ],
+    "responseHeader": ["Content-Type"],
+    "method": ["GET", "POST", "HEAD", "DELETE"],
+    "maxAgeSeconds": 360000000
+  }
+]
